@@ -16,3 +16,94 @@ h1, h2{
     padding: 1rem;
 }
 
+.element {
+    width: 200px;
+    height: 200px;
+    background-color: #3494e6;
+    /* Example background color */
+    transition: all 0.5s ease;
+    /* Smooth transition for all properties over 0.5 seconds */
+    border-radius: 41% 59% 70% 30% / 67% 28% 72% 33%;
+}
+
+/* Hover effect: Change the border-radius values on hover */
+.element:hover {
+    border-radius: 10% 90% 80% 20% / 50% 30% 70% 50%;
+}
+
+
+@keyframes borderAnimation {
+    0% {
+        border-radius: 41% 59% 70% 30% / 67% 28% 72% 33%;
+    }
+
+    10% {
+        border-radius: 10% 90% 80% 20% / 50% 30% 70% 50%;
+    }
+
+
+
+
+
+
+         20% {
+             border-radius: 10% 90% 80% 20% / 50% 30% 70% 50%;
+         }
+
+
+                  30% {
+                      border-radius: 10% 90% 80% 20% / 50% 30% 70% 50%;
+                  }
+
+
+
+
+
+
+    40% {
+        border-radius: 41% 59% 70% 30% / 67% 28% 72% 33%;
+    }
+
+
+
+
+           50% {
+               border-radius: 41% 59% 70% 30% / 67% 28% 72% 33%;
+           }
+    
+           60% {
+               border-radius: 10% 90% 80% 20% / 50% 30% 70% 50%;
+           }
+    
+    
+    
+    
+    
+    
+           70% {
+               border-radius: 10% 90% 80% 20% / 50% 30% 70% 50%;
+           }
+    
+    
+           80% {
+               border-radius: 10% 90% 80% 20% / 50% 30% 70% 50%;
+           }
+    
+    
+    
+    
+    
+    
+           100% {
+               border-radius: 41% 59% 70% 30% / 67% 28% 72% 33%;
+           }
+}
+
+.element {
+    width: 200px;
+    height: 200px;
+    background-color: #3494e6;
+    /* Example background color */
+    animation: borderAnimation 2s infinite;
+    /* Animation lasting 2 seconds, running infinitely */
+}

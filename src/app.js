@@ -4,3 +4,5 @@ let city = "marseille"
 console.log(date);
 city = 'Boghni'
 let country = 'france'
+console.log(country);
+LargestContentfulPaint: 0
