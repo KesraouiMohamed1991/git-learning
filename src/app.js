@@ -5,4 +5,8 @@ console.log(date);
 city = 'Boghni'
 let country = 'france'
 console.log(country);
+console.log(country);
+console.log(country);
+console.log(country);
+console.log(country);
 LargestContentfulPaint: 0
